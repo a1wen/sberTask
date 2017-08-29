@@ -23,7 +23,7 @@ public class BaseTest {
         System.setProperty("webdriver.ie.driver","C:\\Users\\a1wen\\Desktop\\example\\headpagetest\\drivers\\IEDriverServer.exe");
         driver = new InternetExplorerDriver();
         baseUrl = "http://sberbank.ru/";
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         //driver.manage().window().setSize(new Dimension(1300,900));
         driver.manage().window().maximize();
         driver.get(baseUrl);

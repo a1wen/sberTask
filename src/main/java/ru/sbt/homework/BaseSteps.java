@@ -13,14 +13,9 @@ import static org.junit.Assert.*;
 public class BaseSteps extends ScenarioSteps {
     MainPage mainPage = new MainPage();
 
-    @Step
-    public void logoClick(){
-        mainPage.mainlogo.click();
-    }
-
     @Step("Выбор региона")
     public void regionSelectorClick(){
-
+        mainPage = new MainPage();
         mainPage.regionSelector.click();
     }
 

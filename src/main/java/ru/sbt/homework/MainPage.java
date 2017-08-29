@@ -20,9 +20,6 @@ public class MainPage extends PageObject {
 
     }
 
-    @FindBy(css = ".SBRF-H-Logo.logo>a>img")
-    public WebElement mainlogo;
-
     @FindBy(xpath = "//span[@class = 'region-list__name']", timeoutInSeconds="10")
     public WebElement regionSelector;
 

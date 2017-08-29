@@ -18,7 +18,6 @@ public class CheckRegionAndSocialButton extends BaseTest {
     @Title("Переключение региона и поиск кнопок соц.сетей")
     @Test
     public void testSberbankru() throws Exception{
-        steps.logoClick();
         steps.regionSelectorClick();
         steps.setRegion("ниж");
 
